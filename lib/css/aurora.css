@@ -1,0 +1,55 @@
+canvas {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	/* width: 100vw; */
+	width: 100%;
+	height: 600px;
+
+}
+
+.header-bg.canvas {
+	height: 700px;
+}
+
+.canvas-t-01 {
+	opacity: 0.1;
+}
+
+.canvas-t-02 {
+	opacity: 0.2;
+}
+
+.canvas-t-03 {
+	opacity: 0.3;
+}
+
+.canvas-t-04 {
+	opacity: 0.4;
+}
+
+.canvas-t-05 {
+	opacity: 0.5;
+}
+
+.canvas-t-06 {
+	opacity: 0.6;
+}
+
+.canvas-t-07 {
+	opacity: 0.7;
+}
+
+.canvas-t-08 {
+	opacity: 0.8;
+}
+
+.canvas-t-09 {
+	opacity: 0.9;
+}
+
+.canvas-t-1 {
+	opacity: 1;
+}

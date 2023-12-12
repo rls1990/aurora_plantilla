@@ -1,0 +1,160 @@
+html,
+body {
+    height: 100%;
+}
+
+/* section {
+    margin-top: 100px;
+} */
+
+.servicios_on_pushpin {
+    margin-top: 101px;
+}
+
+footer {
+    padding-left: 0;
+}
+
+/************************************** HEADER ************************************/
+#my_header {
+    width: 100%;
+    height: 100vh;
+    cursor: default;
+}
+
+.header-bg {
+    text-align: center;
+    background:
+        /* linear-gradient(to right, #f760094f 7%, #04b6d634 33%, #ff0f4338 65%, #408c5436 93%), */
+        url(../img/fondos/milky-way-984050_1920.jpg) no-repeat;
+    background-size: 100% 100%;
+    padding: 150px 1px;
+    color: #FFFFFF !important;
+    background-size: cover;
+}
+
+#aperture_text {
+    margin: -12px 0px 25px 0px;
+}
+
+#aperture_link {
+    margin-top: 7px;
+    border-radius: 10px 0px 10px 0px;
+}
+
+.aurora {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.waves-effect.waves-cyan .waves-ripple {
+    background-color: #0061644d;
+}
+
+.waves-effect.waves-aurora .waves-ripple {
+    background-color: rgba(224, 222, 222, 0.185);
+}
+
+/****************************** tRANSPARENCIA *************************************/
+.t-01 {
+    opacity: 0.1;
+}
+
+.t-02 {
+    opacity: 0.2;
+}
+
+.t-03 {
+    opacity: 0.3;
+}
+
+.t-04 {
+    opacity: 0.4;
+}
+
+.t-05 {
+    opacity: 0.5;
+}
+
+.t-06 {
+    opacity: 0.6;
+}
+
+.t-07 {
+    opacity: 0.7;
+}
+
+.t-08 {
+    opacity: 0.8;
+}
+
+.t-09 {
+    opacity: 0.9;
+}
+
+.t-1 {
+    opacity: 1;
+}
+
+/****************************** NAV *************************************/
+nav {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+}
+
+nav div a,
+.sidenav li a,
+ul.sidenav li a i.material-icons {
+    /* color: rgb(20, 20, 100); */
+    color: #005457;
+
+}
+
+#icon-mobile {
+    line-height: 100px;
+}
+
+nav div a img {
+    width: 103px;
+    height: 90px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+nav div ul div div li {
+    padding-right: 30px;
+}
+
+nav div ul div div li.left {
+    margin-left: 7px;
+}
+
+@media only screen and (max-width: 1255px) {
+    nav div a i {
+        color: #005457;
+
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .hide-on-med-and-down {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .sidenav-trigger {
+        display: none;
+    }
+}
+
+/****************************** pushpin *************************************/
